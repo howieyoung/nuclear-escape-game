@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- 定位點 -->
-  <circle cx="20" cy="20" r="8" fill="#4B7BFF" stroke="#2B4BFF" stroke-width="2"/>
-  <!-- 外圈 -->
-  <circle cx="20" cy="20" r="12" fill="none" stroke="#4B7BFF" stroke-width="2" stroke-dasharray="2 2"/>
-  <!-- 脈動效果 -->
-  <circle cx="20" cy="20" r="16" fill="none" stroke="#4B7BFF" stroke-width="1" stroke-opacity="0.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <!-- 背景圓形 -->
+  <circle cx="12" cy="12" r="11" fill="#007AFF" stroke="#0055FF" stroke-width="1"/>
+  
+  <!-- 定位針 -->
+  <path d="M12 4c-4.4 0-8 3.6-8 8 0 5.5 8 12 8 12s8-6.5 8-12c0-4.4-3.6-8-8-8z" fill="#FFFFFF"/>
+  
   <!-- 中心點 -->
-  <circle cx="20" cy="20" r="3" fill="#FFFFFF"/>
+  <circle cx="12" cy="12" r="2" fill="#007AFF"/>
+  
+  <!-- 脈動效果 -->
+  <circle cx="12" cy="12" r="9" fill="none" stroke="#007AFF" stroke-width="0.5" stroke-opacity="0.3"/>
+  <circle cx="12" cy="12" r="7" fill="none" stroke="#007AFF" stroke-width="0.5" stroke-opacity="0.3"/>
 </svg> 
