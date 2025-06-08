@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Nuclear Crisis Simulator
 
 A web-based simulation tool that helps users understand the potential impact of nuclear disasters in Taiwan, including radiation spread patterns and evacuation time windows.
@@ -100,3 +101,6 @@ src/
 ## Note
 
 This is a simplified simulation for educational purposes. Actual nuclear disaster scenarios would be more complex and should be managed by professional emergency response teams.
+=======
+# nuclear-escape-game
+>>>>>>> 258bd840ead28deb9b157e292e79b93d84389593
