@@ -11,7 +11,7 @@ export async function loadTaiwanCounties(
 
     L.geoJSON(data, {
       style: (feature) => ({
-        fillColor: feature.properties.color || '#4CAF50',
+        fillColor: feature?.properties?.color || '#4CAF50',
         weight: 2,
         opacity: 1,
         color: 'white',
