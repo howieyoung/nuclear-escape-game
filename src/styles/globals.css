@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+    to bottom,
+    rgb(var(--background-start-rgb)),
+    rgb(var(--background-end-rgb))
+  );
+  min-height: 100vh;
+}
+
+/* Map Container Styles */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.leaflet-control-container {
+  z-index: 2;
+}
+
+/* Button Styles */
+.btn {
+  @apply px-4 py-2 rounded-lg font-semibold transition-colors;
+}
+
+.btn-primary {
+  @apply bg-blue-500 text-white hover:bg-blue-600;
+}
+
+.btn-warning {
+  @apply bg-yellow-500 text-white hover:bg-yellow-600;
+}
+
+.btn-danger {
+  @apply bg-red-500 text-white hover:bg-red-600;
+}
+
+/* Card Styles */
+.card {
+  @apply bg-white rounded-lg shadow-lg p-6;
+}
+
+/* Nuclear Marker Animation */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.nuclear-marker {
+  animation: pulse 2s infinite;
+}
+
+/* Radiation Cloud Animations */
+@keyframes radiationPulse {
+  0% {
+    filter: blur(0px);
+  }
+  50% {
+    filter: blur(2px);
+  }
+  100% {
+    filter: blur(0px);
+  }
+}
+
+.radiation-cloud {
+  animation: radiationPulse 3s infinite;
+  transition: all 0.3s ease-out;
+}
+
+.radiation-cloud-wind {
+  animation: radiationPulse 3s infinite 0.5s;
+  transition: all 0.3s ease-out;
+}
+
+/* Radiation Spread Animation */
+@keyframes spread {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.2;
+  }
+}
+
+.radiation-spread {
+  animation: spread 2s ease-out;
+} 
