@@ -1,0 +1,115 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taipei",
+        "population": 2700000,
+        "density": "high",
+        "evacuation_difficulty": "extreme",
+        "color": "#4CAF50"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [121.499999, 25.150000],
+            [121.650000, 25.150000],
+            [121.650000, 25.050000],
+            [121.499999, 25.050000],
+            [121.499999, 25.150000]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New Taipei",
+        "population": 3900000,
+        "density": "high",
+        "evacuation_difficulty": "high",
+        "color": "#4CAF50"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [121.250000, 25.150000],
+            [121.499999, 25.150000],
+            [121.499999, 24.950000],
+            [121.250000, 24.950000],
+            [121.250000, 25.150000]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taichung",
+        "population": 2700000,
+        "density": "medium",
+        "evacuation_difficulty": "high",
+        "color": "#4CAF50"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [120.450000, 24.250000],
+            [120.850000, 24.250000],
+            [120.850000, 24.050000],
+            [120.450000, 24.050000],
+            [120.450000, 24.250000]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tainan",
+        "population": 1800000,
+        "density": "medium",
+        "evacuation_difficulty": "medium",
+        "color": "#4CAF50"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [120.050000, 23.050000],
+            [120.350000, 23.050000],
+            [120.350000, 22.850000],
+            [120.050000, 22.850000],
+            [120.050000, 23.050000]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kaohsiung",
+        "population": 2700000,
+        "density": "high",
+        "evacuation_difficulty": "high",
+        "color": "#4CAF50"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [120.250000, 22.650000],
+            [120.550000, 22.650000],
+            [120.550000, 22.450000],
+            [120.250000, 22.450000],
+            [120.250000, 22.650000]
+          ]
+        ]
+      }
+    }
+  ]
+}
