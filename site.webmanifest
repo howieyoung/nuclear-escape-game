@@ -1,0 +1,21 @@
+{
+  "name": "Nuclear Crisis: Your Escape Window",
+  "short_name": "Nuclear Crisis",
+  "description": "An interactive simulation game about nuclear disaster scenarios in Taiwan",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#1E293B",
+  "background_color": "#1E293B",
+  "display": "standalone",
+  "start_url": "/"
+} 
